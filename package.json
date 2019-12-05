@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "rm -rf ./node_modules/.cache/babel-loader && next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "precommit": "lint-staged",
-    "analyze": "ANALYZE=true npm run build"
+    "precommit": "lint-staged"
   },
   "husky": {
     "hooks": {
