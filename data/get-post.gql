@@ -1,0 +1,13 @@
+query getPost($id: ID!) {
+  fakePost(where: { id: $id }) {
+    id
+    title
+    createdAt
+    content
+    fakeAuthor {
+      id
+      name
+      title
+    }
+  }
+}

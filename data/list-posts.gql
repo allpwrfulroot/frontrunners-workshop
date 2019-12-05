@@ -1,0 +1,7 @@
+query listPosts {
+  fakePosts(orderBy: createdAt_DESC) {
+    id
+    title
+    createdAt
+  }
+}
